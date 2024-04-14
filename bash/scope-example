@@ -1,0 +1,14 @@
+#!/bin/bash
+
+INSULT="Jou ma se poes!"
+
+insult(){
+  local name
+  name="Die Antwoord"
+  echo "$name said the following: $INSULT"
+}
+
+insult
+
+echo "The answer won't be printed, let's see what happens instead if I put a dollar sign here $name"
+
